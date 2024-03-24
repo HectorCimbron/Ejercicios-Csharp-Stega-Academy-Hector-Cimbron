@@ -1,0 +1,73 @@
+ASIGNACIONES SOSPECHOSAS:
+
+1. SE TIENEN LAS SIGUIENTES VARIABLES: A Y B DE TIPO ENTERO; C Y D DE TIPO REAL; E
+Y F DE TIPO CARÁCTER; Y G DE TIPO LÓGICO. SEÑALA CUÁLES DE LAS SIGUIENTES
+ASIGNACIONES NO SON VÁLIDAS Y POR QUÉ:
+
+e = 0; 		//Si e es de tipo carácter, necesita las comillas simples ''
+a = 12.56; 	//Si a es una variable de tipo entero, no puede llevar decimales
+g = 'falso' 	//Si g es una variable de tipo lógico dará error al escribir las comillas '' 
+f = g; 		//Si f es una variable de tipo carácter necesitará comillas: f = 'g';
+
+2. ¿CUÁL ES LA SALIDA POR PANTALLA DE CADA UNA DE ESTAS SECUENCIAS DE
+ASIGNACIONES?
+
+INT A, B, C;
+A = 3;
+B = 4;
+C = A + 2 * B;
+C = C + B;
+B = C – A;
+A = B * C;
+DEBUG.LOG(A + B + C);
+
+**************************************************************************
+SOLUCIÓN: 207
+**************************************************************************
+
+5. ¿CUÁL ES LA SALIDA POR PANTALLA DE CADA UNA DE ESTAS SECUENCIAS DE
+ASIGNACIONES? 
+
+FLOAT X;
+X = 2.0F;
+X = MATHF.POW((X + X), 2);
+X = MATHF.SQRT(X + MATHF.SQRT(X) + 5);
+DEBUG.LOG(X);
+
+**************************************************************************
+SOLUCIÓN: 5
+**************************************************************************
+
+
+4. ¿CUÁL ES LA SALIDA POR PANTALLA DE CADA UNA DE ESTAS SECUENCIAS DE
+ASIGNACIONES?
+
+INT X, Y;
+BOOL Z;
+X = 5;
+Y = X - 2;
+X = Y * Y + 1;
+Z = (X > (Y + 5));
+DEBUG.LOG(X + Y + Z);
+
+**************************************************************************
+SOLUCIÓN: 13 + TRUE
+**************************************************************************
+
+5. ¿CUÁL ES LA SALIDA POR PANTALLA DE CADA UNA DE ESTAS SECUENCIAS DE
+ASIGNACIONES?
+
+INT A, B;
+A = 10;
+B = 5;
+A = B;
+B = A;
+DEBUG.LOG(A + B);
+
+**************************************************************************
+SOLUCIÓN: 10
+**************************************************************************
+
+
+
+
